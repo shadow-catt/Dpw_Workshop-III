@@ -1,0 +1,13 @@
+// KB-Demo
+digraph {
+	0 [label=Chicago]
+	1 [label="Michelle Robinson"]
+	2 [label="Trinity United Church"]
+	3 [label="United States"]
+	4 [label="Barack Obama"]
+	4 -> 3 [label="was 44th president of"]
+	4 -> 3 [label="was president of"]
+	2 -> 0 [label="is in"]
+	4 -> 1 [label=married]
+	4 -> 2 [label="married Michelle Robinson at"]
+}
